@@ -67,7 +67,7 @@ VIII. Tester l'applications
 
 Avec la commande python manage.py runserver l'application est sensé demarrer. 
 
-!Erreur rencontré, j'ai du ajouter des lignes dans mon views.py :
+!Erreur rencontré, j'ai du ajouter des lignes dans mon models.py pour que chaque variable "Matiere" "Etudiant" "Notation"  :
 
 ![Alt text](image-1.png)
 
