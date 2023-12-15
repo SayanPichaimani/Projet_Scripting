@@ -59,7 +59,17 @@ VI. Ajout des URL
 
 ![Alt text](image.png)
 
+VII. Ajout des Urls dans les fichiers concernés
 
+Pour finir nous devons mettre en place les urls afin quils soient importer sur le site.
+
+VIII. Tester l'applications 
+
+Avec la commande python manage.py runserver l'application est sensé demarrer. 
+
+!Erreur rencontré, j'ai du ajouter des lignes dans mon views.py :
+
+![Alt text](image-1.png)
 
 
 
