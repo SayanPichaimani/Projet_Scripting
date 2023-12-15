@@ -56,7 +56,7 @@ mkdir includes
  Apres ça nous allons ajouter des fichier .html que nous allons allimenter apres ça il nous faudras configurer le fichier views.py afin de pouvoir utiliser ses templates.
 
 VI. Ajout des URL 
-
+![Alt text](image.png)
 
 
 
