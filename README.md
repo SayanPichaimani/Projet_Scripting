@@ -62,11 +62,11 @@ Apres ça nous allons ajouter des fichier .html que nous allons allimenter apres
 
 ![Alt text](image.png)
 
-VII. Ajout des Urls dans les fichiers concernés
+## __VII. Ajout des Urls dans les fichiers concernés__
 
 Pour finir nous devons mettre en place les urls afin quils soient importer sur le site.
 
-VIII. Tester l'applications 
+## __VIII. Tester l'applications__
 
 Avec la commande python manage.py runserver l'application est sensé demarrer. 
 
