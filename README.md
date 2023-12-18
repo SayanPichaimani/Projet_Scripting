@@ -43,7 +43,7 @@ Créez un dossier templates dans le répertoire de votre application notes_app :
 
 Cela créera un dossier templates à l'intérieur de votre application Django.
 
-Structure des Templates :
+### Structure des Templates :
 
 Créez un sous-dossier pour chaque modèle principal (matières, étudiants, notations).
 
