@@ -8,11 +8,11 @@ Les commandes à lancer dans un premier temps :
 
 __Créer une nouvelle application__
 
-python manage.py startapp notes_app
+* python manage.py startapp notes_app
 
 __Aller dans le répertoire de l'application__
 
-cd notes_app
+* cd notes_app
 
 ## _II. Déploiement des classes :_
 
@@ -32,32 +32,33 @@ cd notes_app
 
 c'est l'endroit où vous devriez définir les fonctions de vue qui seront responsables de traiter les requêtes HTTP 
 
-V. Creation des Templates HTML 
+## __V. Creation des Templates HTML__
 
- Nous allons creer des templates HTML dans un dossier que nous nommerons "Templates", avec les commandes suivantes :
- Créez un dossier templates dans le répertoire de votre application notes_app :
+Nous allons creer des templates HTML dans un dossier que nous nommerons "Templates", avec les commandes suivantes :
+Créez un dossier templates dans le répertoire de votre application notes_app :
 
-cd notes_app
-mkdir templates
+* cd notes_app
+  
+* mkdir templates
 
- Cela créera un dossier templates à l'intérieur de votre application Django.
+Cela créera un dossier templates à l'intérieur de votre application Django.
 
 Structure des Templates :
 
- Créez un sous-dossier pour chaque modèle principal (matières, étudiants, notations).
+Créez un sous-dossier pour chaque modèle principal (matières, étudiants, notations).
 
-cd templates
-mkdir matieres
-mkdir etudiants
-mkdir notations
+* cd templates
+* mkdir matieres
+* mkdir etudiants
+* mkdir notations
 
- Créez également un dossier includes pour stocker les éléments réutilisables, tels que l'en-tête et le pied de page. (Il s'agirra de notre base)
+Créez également un dossier includes pour stocker les éléments réutilisables, tels que l'en-tête et le pied de page. (Il s'agirra de notre base)
 
-mkdir includes
+* mkdir includes
 
- Apres ça nous allons ajouter des fichier .html que nous allons allimenter apres ça il nous faudras configurer le fichier views.py afin de pouvoir utiliser ses templates.
+Apres ça nous allons ajouter des fichier .html que nous allons allimenter apres ça il nous faudras configurer le fichier views.py afin de pouvoir utiliser ses templates.
 
-VI. Ajout des URL 
+## __VI. Ajout des URL__
 
 ![Alt text](image.png)
 
