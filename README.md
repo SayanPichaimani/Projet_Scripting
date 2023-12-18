@@ -1,5 +1,5 @@
 
-#TitreI. Création du projet :
+__I. Création du projet :__
 
  Avant de commencer, lancez une application qui vous permettra d'insérer du code. Pour ma part, il s'agit de Visual Studio Code.
 
