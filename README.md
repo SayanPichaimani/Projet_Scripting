@@ -1,32 +1,34 @@
 
 ## __I. Création du projet :__
 
- Avant de commencer, lancez une application qui vous permettra d'insérer du code. Pour ma part, il s'agit de Visual Studio Code.
+Avant de commencer, lancez une application qui vous permettra d'insérer du code. 
+Pour ma part, il s'agit de Visual Studio Code.
 
 Les commandes à lancer dans un premier temps :
 
- Créer une nouvelle application
+__Créer une nouvelle application__
 
 python manage.py startapp notes_app
 
- Aller dans le répertoire de l'application
+__Aller dans le répertoire de l'application__
 
 cd notes_app
 
-II. Déploiement des classes :
+## _II. Déploiement des classes :_
 
  Après cela, nous allons lancer la commande "python manage.py startapp notes_app" qui permettra dans notre dossier de créer une application. Avec cette commande, plusieurs fichiers .py ont été créés, et nous allons nous concentrer sur celui se situant dans notes_app > models.py. Ici, nous allons importer les trois classes qui sont "matières", "étudiants" ainsi que "notations".
 
  Pour terminer ce deuxième chapitre, nous allons effectuer l'application des migrations avec les commandes suivantes :
 
-python manage.py makemigrations
-python manage.py migrate
+* python manage.py makemigrations
 
-III. Création des formulaires :
+* python manage.py migrate
+
+## __III. Création des formulaires :__
 
  Nous allons créer un formulaire que nous nommerons forms.py dans notes_app, ce qui permettra d'importer les variables Matières, Étudiant et la notation. Par la suite, dans notes_app > Views.py, nous allons alimenter ce fichier afin de traiter les requêtes des trois classes définies avant.
 
-IV. Alimentation du fichier views.py
+## __IV. Alimentation du fichier views.py__
 
 c'est l'endroit où vous devriez définir les fonctions de vue qui seront responsables de traiter les requêtes HTTP 
 
