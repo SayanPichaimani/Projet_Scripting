@@ -1,3 +1,9 @@
+Membre du groupe :
+Su Brian
+Doumalin Kylian
+Cavarle Theo
+Pichaimani Sayan
+
 
 ## __I. Création du projet :__
 
